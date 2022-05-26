@@ -1,0 +1,24 @@
+{
+  "name": "web-scraping",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "natural": "^5.2.2",
+    "nodemon": "^2.0.16",
+    "remove-stopwords": "^1.0.3",
+    "simple-spellchecker": "^1.0.2",
+    "stem-porter": "^0.0.1"
+  }
+}
